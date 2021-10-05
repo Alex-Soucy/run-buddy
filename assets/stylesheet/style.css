@@ -74,7 +74,7 @@ section {
 
 /* Hero Style Start */
 .hero {
-    background-image: url("assets\image\hero-bg.jpg");
+    background-image: url("../image/hero-bg.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -82,11 +82,11 @@ section {
 }
 
 .hero-form {
+    border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
     width: 500px;
     color: #024e76;
-    border: solid 3px #024e76;
     position: absolute;
     bottom: 120px;
     right: 140px
@@ -267,5 +267,3 @@ section {
 .contact-info a {
     color: #fce138;
 }
-
-
