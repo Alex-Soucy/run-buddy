@@ -1,7 +1,7 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -17,20 +17,20 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: flex;
-    position: -webkit-sticky;
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
     background-image: url("../image/hero-bg.jpg");
     background-size: cover;
-    background-position: 80%;
     background-attachment: fixed;
+    background-position: 80%; 
 }
 
 header h1 {
     font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
     margin: 0;
+    font-size: 36px;
+    color: #fce138;  
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -67,11 +67,11 @@ header nav ul li a:hover {
 
 footer {
     background: #fce138;
-    width: 100%;
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 footer h2 {
@@ -123,13 +123,13 @@ section {
 
 .hero-form {
     border: 3px solid #024e76;
-    background-color: rgba(252, 225, 56, .8);
+    background-color: rgba(252, 225, 56, 0.8);
     padding: 20px;
     color: #024e76;
     width: 40%;
     margin: 3.5%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form h3 {
@@ -179,8 +179,8 @@ section {
 
 .section-title {
     font-size: 48px;
-    color: #024e76;
     border-bottom: 3px solid;
+    color: #024e76;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
@@ -199,8 +199,8 @@ section {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
-    font-size: 20px;
     margin: 0 auto;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -270,9 +270,10 @@ section {
 
 .trainer {
     margin: 20px;
+    flex: 1;
     background: #024e76;
     color: #fce138;
-    flex: 1;
+   
 }
 
 .trainer img {
